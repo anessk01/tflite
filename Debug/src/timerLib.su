@@ -1,0 +1,10 @@
+core_cm3.h:1323:22:NVIC_EnableIRQ	16	static
+core_cm3.h:1335:22:NVIC_DisableIRQ	16	static
+timerLib.c:14:14:prescaler	24	static
+timerLib.c:35:6:timer0Disable	16	static
+timerLib.c:43:6:timer0Init	32	static
+timerLib.c:52:6:delayMS	16	static
+timerLib.c:58:6:timer0Init_uS	24	static
+timerLib.c:66:6:delayUS	16	static
+timerLib.c:74:6:initialiseNVIC_T1	24	static
+timerLib.c:84:6:timer1Disable	16	static

@@ -1,0 +1,52 @@
+error_reporter.h:37:11:tflite::ErrorReporter::~ErrorReporter()	16	static
+error_reporter.h:37:11:virtual tflite::ErrorReporter::~ErrorReporter()	16	static
+micro_error_reporter.h:40:3:tflite::MicroErrorReporter::~MicroErrorReporter()	16	static
+micro_error_reporter.h:40:3:virtual tflite::MicroErrorReporter::~MicroErrorReporter()	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+flatbuffers.h:75:13:void flatbuffers::EndianCheck()	16	static
+flatbuffers.h:2430:18:const uint8_t* flatbuffers::Table::GetVTable() const	24	static
+flatbuffers.h:2436:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	24	static
+schema_generated.h:11899:12:uint32_t tflite::Model::version() const	16	static
+schema_generated.h:18219:29:const tflite::Model* tflite::GetModel(const void*)	16	static
+stl_vector.h:285:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = std::unique_ptr<TfLiteDelegate, void (*)(TfLiteDelegate*)>; _Alloc = std::allocator<std::unique_ptr<TfLiteDelegate, void (*)(TfLiteDelegate*)> >]	16	static
+stl_vector.h:484:7:std::vector<_Tp, _Alloc>::vector() [with _Tp = std::unique_ptr<TfLiteDelegate, void (*)(TfLiteDelegate*)>; _Alloc = std::allocator<std::unique_ptr<TfLiteDelegate, void (*)(TfLiteDelegate*)> >]	16	static
+op_resolver.h:44:35:virtual tflite::OpResolver::TfLiteDelegatePtrVector tflite::OpResolver::GetDelegates(int) const	24	static
+op_resolver.h:48:11:tflite::OpResolver::~OpResolver()	16	static
+op_resolver.h:48:11:virtual tflite::OpResolver::~OpResolver()	16	static
+op_resolver.h:62:16:virtual bool tflite::OpResolver::MayContainUserDefinedOps() const	16	static
+micro_op_resolver.h:53:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(tflite::BuiltinOperator, int) const	24	static
+micro_op_resolver.h:60:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(const char*, int) const	24	static
+micro_op_resolver.h:68:3:tflite::MicroOpResolver::~MicroOpResolver()	16	static
+micro_op_resolver.h:68:3:virtual tflite::MicroOpResolver::~MicroOpResolver()	16	static
+main.cpp:35:17:void DebugLog(const char*)	16	static
+main.cpp:57:5:int main()	216	static
+base.h:390:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	16	static
+base.h:401:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	16	static
+base.h:401:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	16	static
+base.h:401:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	16	static
+flatbuffers.h:2446:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long unsigned int]	32	static
+flatbuffers.h:2098:31:const T* flatbuffers::GetRoot(const void*) [with T = tflite::Model]	16	static
+stl_vector.h:128:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = std::unique_ptr<TfLiteDelegate, void (*)(TfLiteDelegate*)>; _Alloc = std::allocator<std::unique_ptr<TfLiteDelegate, void (*)(TfLiteDelegate*)> >]	16	static
+op_resolver.h:30:7:constexpr tflite::OpResolver::OpResolver()	16	static
+micro_op_resolver.h:35:7:constexpr tflite::MicroOpResolver::MicroOpResolver()	16	static
+micro_mutable_op_resolver.h:43:12:tflite::MicroMutableOpResolver<tOpCount>::MicroMutableOpResolver(tflite::ErrorReporter*) [with unsigned int tOpCount = 8]	16	static
+micro_mutable_op_resolver.h:252:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddFullyConnected(const TfLiteRegistration&) [with unsigned int tOpCount = 8]	16	static
+micro_mutable_op_resolver.h:336:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddLogistic() [with unsigned int tOpCount = 8]	48	static
+micro_mutable_op_resolver.h:415:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddReshape() [with unsigned int tOpCount = 8]	48	static
+micro_mutable_op_resolver.h:406:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddRelu() [with unsigned int tOpCount = 8]	48	static
+micro_mutable_op_resolver.h:450:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddSoftmax(const TfLiteRegistration&) [with unsigned int tOpCount = 8]	16	static
+micro_mutable_op_resolver.h:171:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddConv2D(const TfLiteRegistration&) [with unsigned int tOpCount = 8]	16	static
+micro_mutable_op_resolver.h:396:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddQuantize() [with unsigned int tOpCount = 8]	48	static
+micro_mutable_op_resolver.h:196:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddDequantize() [with unsigned int tOpCount = 8]	48	static
+base.h:390:24:T flatbuffers::EndianScalar(T) [with T = long int]	16	static
+base.h:390:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	16	static
+flatbuffers.h:2091:25:T* flatbuffers::GetMutableRoot(void*) [with T = tflite::Model]	16	static
+allocator.h:138:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = std::unique_ptr<TfLiteDelegate, void (*)(TfLiteDelegate*)>]	16	static
+stl_vector.h:94:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_Vector_impl_data() [with _Tp = std::unique_ptr<TfLiteDelegate, void (*)(TfLiteDelegate*)>; _Alloc = std::allocator<std::unique_ptr<TfLiteDelegate, void (*)(TfLiteDelegate*)> >]	16	static
+micro_mutable_op_resolver.h:539:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddBuiltin(tflite::BuiltinOperator, const TfLiteRegistration&, tflite::MicroOpResolver::BuiltinParseFunction) [with unsigned int tOpCount = 8]	32	static
+new_allocator.h:80:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = std::unique_ptr<TfLiteDelegate, void (*)(TfLiteDelegate*)>]	16	static
+micro_mutable_op_resolver.h:46:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 8]	24	static
+micro_mutable_op_resolver.h:39:7:tflite::MicroMutableOpResolver<8>::~MicroMutableOpResolver()	16	static
+micro_mutable_op_resolver.h:39:7:virtual tflite::MicroMutableOpResolver<8>::~MicroMutableOpResolver()	16	static
+micro_mutable_op_resolver.h:58:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 8]	24	static
+micro_mutable_op_resolver.h:69:41:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 8]	24	static
